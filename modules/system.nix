@@ -51,6 +51,9 @@
   # Networking
   networking.networkmanager.enable = true;
 
+  # SSH
+  programs.ssh.startAgent = true;
+
   # Bluetooth
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
@@ -59,5 +62,7 @@
   environment.systemPackages = with pkgs; [
      vim-full
      gitFull
+     gnupg
+     pinentry-tty
   ];
 }
