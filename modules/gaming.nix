@@ -14,6 +14,7 @@
     autoStart = true;
     openFirewall = true;
     highPriority = true;
+    defaultRuntime = true;
     steam.importOXRRuntimes = true;
   };
 
