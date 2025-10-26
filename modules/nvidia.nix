@@ -44,9 +44,4 @@
         amdgpuBusId = "PCI:13:0:0";
     };
   };
-
-  environment.systemPackages = with pkgs; [
-    nvidia-settings
-    nvidia-persistenced
-  ];
 }
