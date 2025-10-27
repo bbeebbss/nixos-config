@@ -45,7 +45,8 @@
         texmaker
         gnuradio
         unityhub
-        qpwgraph 
+        qpwgraph
+        wineWowPackages.stable 
       ];
     };
 
